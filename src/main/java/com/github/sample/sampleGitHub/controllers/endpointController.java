@@ -14,4 +14,11 @@ public class endpointController {
     {
         return "Hello There";
     }
+	@RequestMapping("/login")
+	@ResponseBody
+      // Method
+    public String login()
+    {
+        return "Login";
+    }
 }
